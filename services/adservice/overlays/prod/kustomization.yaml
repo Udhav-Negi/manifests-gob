@@ -4,4 +4,7 @@ resources:
 - ../../base
 
 namePrefix: prod-
-
+images:
+- name: udhavnegi/adservice
+  newName: udhavnegi/adservice
+  newTag: sha-73bbc01

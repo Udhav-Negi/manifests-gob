@@ -11,4 +11,5 @@ resources:
   - ../../services/productcatalogservice/overlays/prod/
   - ../../services/recommendationservice/overlays/prod/
   - ../../services/shippingservice/overlays/prod/
+  - ../../services/shoppingassistantservice/overlays/prod/
   - ../../infrastructure/ingress/overlays/prod/

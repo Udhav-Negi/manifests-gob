@@ -4,4 +4,7 @@ resources:
 - ../../base
 
 namePrefix: prod-
-
+images:
+- name: udhavnegi/shoppingassistantservice
+  newName: udhavnegi/shoppingassistantservice
+  newTag: sha-73bbc01

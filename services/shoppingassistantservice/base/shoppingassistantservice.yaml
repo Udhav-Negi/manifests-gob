@@ -27,7 +27,7 @@ spec:
       labels:
         app: shoppingassistantservice
     spec:
-      serviceAccountName: udhavnegi/shoppingassistantservice:latest
+      serviceAccountName: shoppingassistantservice
       terminationGracePeriodSeconds: 5
       securityContext:
         fsGroup: 1000
@@ -43,7 +43,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: false
-        image: shoppingassistantservice
+        image: udhavnegi/shoppingassistantservice:latest
         ports:
         - name: http
           containerPort: 8080

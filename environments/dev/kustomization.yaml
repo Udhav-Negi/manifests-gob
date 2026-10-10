@@ -1,0 +1,14 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - ../../services/adservice/overlays/dev/
+  - ../../services/cartservice/overlays/dev/
+  - ../../services/checkoutservice/overlays/dev/
+  - ../../services/currencyservice/overlays/dev/
+  - ../../services/emailservice/overlays/dev/
+  - ../../services/frontend/overlays/dev/
+  - ../../services/paymentservice/overlays/dev/
+  - ../../services/productcatalogservice/overlays/dev/
+  - ../../services/recommendationservice/overlays/dev/
+  - ../../services/shippingservice/overlays/dev/
+  - ../../services/shoppingassistantservice/overlays/dev/
